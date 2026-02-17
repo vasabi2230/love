@@ -7,37 +7,37 @@ let snowStarted = false;
 
 function say_no() {
     if (i === 1) {
-        image.src = "image/cry.gif";
+        image.src = "cry.gif";
         no.style.width="130px"
         no.textContent="ot sl nh heh men";
         i = 2;
     }
     else if (i === 2) {
-        image.src = "image/no_no.gif";
+        image.src = "no_no.gif";
         no.style.width="100px"
         no.textContent="kom jg mer";
         i = 3;
     }
     else if (i === 3) {
-        image.src = "image/cry_sit.gif";
+        image.src = "cry_sit.gif";
         no.style.width="120px"
         no.textContent="nh akrk nas men!";
         i = 4;
     }
     else if (i === 4) {
-        image.src = "image/sad_back.gif";
+        image.src = "sad_back.gif";
         no.style.width="130px"
         no.textContent="kom sday kroy ha!";
         i = 5;
     }
     else if (i === 5) {
-        image.src = "image/sit_cry.gif";
+        image.src = "sit_cry.gif";
          no.style.width="110px"
         no.textContent="men ten men?";
         i = 6;
     }
     else if (i === 6) {
-        image.src = "image/huhuhu.gif";
+        image.src = "huhuhu.gif";
         no.textContent="no";
         yes.textContent=`Yes yes, please say YES`;
         yes.style.width="200px";
@@ -45,7 +45,7 @@ function say_no() {
         i = 7;
     }
     else if (i === 7) {
-        image.src = "image/huhuhu.gif";
+        image.src = "huhuhu.gif";
         no.textContent="no";
         yes.textContent=`Yes yes, please say YES`;
         yes.style.width="300px";
@@ -54,7 +54,7 @@ function say_no() {
         i = 8;
     }
     else if (i === 8) {
-        image.src = "image/huhuhu.gif";
+        image.src = "huhuhu.gif";
         no.textContent="no";
         yes.textContent=`Yes yes, please say YES`;
         yes.style.width="400px";
@@ -63,7 +63,7 @@ function say_no() {
         i = 9;
     }
     else if (i === 9) {
-        image.src = "image/huhuhu.gif";
+        image.src = "huhuhu.gif";
         no.textContent="no";
         yes.textContent=`Yes yes, please say YES`;
         yes.style.width="400px";
@@ -72,7 +72,7 @@ function say_no() {
         i = 10;
     }
     else if (i === 10) {
-        image.src = "image/happy.gif";
+        image.src = "happy.gif";
         no.textContent="Yes";
         yes.textContent=`Yes yes, please say YES`;
         yes.style.width="400px";
@@ -82,7 +82,7 @@ function say_no() {
         i = 11;
     }
         else if (i === 11) {
-            image.src = "image/love.gif";
+            image.src = "love.gif";
             document.getElementById("btn_form").style.display = "none";
 
             function createSnow() {
@@ -110,7 +110,7 @@ function say_no() {
 
 }
 function say_yes(){
-     image.src = "image/love.gif";
+     image.src = "love.gif";
         document.getElementById("btn_form").style.display="none";
 
    function createSnow() {
@@ -135,3 +135,4 @@ function say_yes(){
 
     
 }
+
