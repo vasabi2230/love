@@ -2,6 +2,7 @@ const yes = document.getElementById("btn_yes");
 const form_btn = document.getElementById("btn_form");
 const no = document.getElementById("btn_no");
 const image = document.querySelector("#image img");
+const yay = document.getElementById("txt_yay");
 let i = 1;
 let snowStarted = false;
 
@@ -84,6 +85,7 @@ function say_no() {
         else if (i === 11) {
             image.src = "love.gif";
             document.getElementById("btn_form").style.display = "none";
+             yay.textContent="Yay yay 🥳";
 
             function createSnow() {
                 const snow = document.createElement("div");
@@ -112,6 +114,7 @@ function say_no() {
 function say_yes(){
      image.src = "love.gif";
         document.getElementById("btn_form").style.display="none";
+    yay.textContent="Yay yay 🥳";
 
    function createSnow() {
          const snow = document.createElement("div");
@@ -135,4 +138,5 @@ function say_yes(){
 
     
 }
+
 
